@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class user 
+{
+
+	public static void main(String[] args) throws Exception
+	{
+//        int minutes = System.in.read();
+//        System.out.println(minutes);    //prints ascii value of minutes
+		
+		  int minutes;
+		  Scanner sc = new Scanner(System.in);
+		  //System.out.println("Input the minutes : "+minutes);
+		  minutes= Integer.parseInt(sc.nextLine());
+		  
+		  System.out.println("minutes are : "+minutes);
+		  
+		  int years,days;
+			years=(minutes)/(60*24*30*12);
+			int a =(years*60*24*30*12);
+			days=(minutes-a)/(60*24);
+			
+			System.out.println("years are "+years);
+		
+			System.out.println("Days are "+days);
+			
+		  
+
+	}
+
+}
