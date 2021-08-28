@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Switch 
+{
+
+	public static void main(String[] args)
+	{
+	 
+	  int choice;
+	  int a=10,b=5;
+	  System.out.println("Pick one\n 1.Addition\n 2.Subtraction 3.Multiplication\n 4.Division");
+	  
+	  Scanner s = new Scanner(System.in);
+	  choice = s.nextInt();
+	  
+	  switch(choice)
+	  {
+	 
+	       case 1 : System.out.println("Addition is "+(a+b));
+	       break;
+	       
+	       case 2 : System.out.println("Subtraction is "+(a-b));
+	       break;
+	       
+	       case 3 : System.out.println("Multiplication is "+(a*b));
+	       break;
+	       
+	       case 4 : System.out.println("Division is "+(a/b));
+	       break;
+	       
+	       
+	  }
+     
+	}
+
+}
