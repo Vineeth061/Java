@@ -1,0 +1,54 @@
+
+public class Employee1 
+{
+
+	public static void main(String[] args) 
+	{
+		String Name;
+        int Yearofjoining;
+        String Address;
+      
+      System.out.println("\tName   \t\tYearofjoining   \tAddress");
+      
+      System.out.println();
+      
+      Employee emp1 = new Employee();
+      Employee emp2 = new Employee();
+      Employee emp3 = new Employee();
+      
+      emp1.Name="Robert";
+      emp1.Yearofjoining=1994;
+      emp1.Address="64C- WallsStreat"; //emp1 details
+      
+      emp2.Name="Sam";
+      emp2.Yearofjoining=2000;
+      emp2.Address="68D- Wallstreet"; //emp2 details
+      
+      emp3.Name="John";
+      emp3.Yearofjoining=1999;
+      emp3.Address="26B- WallsStreat"; // emp3 details
+      
+      System.out.print("\t"+emp1.Name );
+      System.out.print("\t\t"+emp1.Yearofjoining );
+      System.out.print("\t\t\t" +emp1.Address);
+      
+      System.out.println();
+      
+      
+      System.out.print("\t"+emp2.Name );
+      System.out.print("\t\t"+emp2.Yearofjoining );
+      System.out.print("\t\t\t" +emp2.Address);
+      
+      System.out.println();
+      
+      
+      System.out.print("\t"+emp3.Name );
+      System.out.print("\t\t"+emp3.Yearofjoining );
+      System.out.print("\t\t\t" +emp3.Address);
+      
+      
+      
+
+	}
+
+}
