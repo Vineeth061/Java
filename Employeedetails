@@ -1,0 +1,26 @@
+
+public class Employee 
+{
+
+	public static void main(String[] args) 
+	{
+      
+        System.out.println("\tName  \tYearofjoining     \tAddress");
+        
+        System.out.println();
+        
+
+        
+        System.out.println("\tRobert \t1994          \t64C- WallsStreat");
+
+        System.out.println("\tSam  \t2000         \t68D- WallsStreat");
+
+        System.out.println("\tJohn  \t1999           \t26B- WallsStreat");
+        
+        
+        
+        
+        
+	}
+
+}
